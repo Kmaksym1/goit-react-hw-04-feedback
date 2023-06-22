@@ -1,0 +1,22 @@
+.mainContainer{
+  display: block;
+}
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10px; */
+  }
+
+  
+  .Bntfeeedback {
+    background-color: #f2f2f2;
+    width: 7vh;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .Bntfeeedback:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
